@@ -79,4 +79,4 @@ with tab3:
         customers_saved = st.number_input("Customers Saved Per Month", 10, 500, 50)
         avg_revenue = st.number_input("Avg Monthly Revenue Per Customer ($)", 20, 200, 65)
     with col2:
-        annual_saved
+        annual_saved = 0 # or whatever the calculation should be
